@@ -1,0 +1,40 @@
+/* pdfStyles.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center; /* Center align text */
+}
+
+th {
+  background-color: #f2f2f2;
+  font-size: 7px; /* Font size for header */
+}
+
+td {
+  font-size: 7px; /* Font size for data */
+}
+
+.total {
+  font-size: 7px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: right; /* Align total to the right */
+}
+
+h1,
+.transtitle {
+  font-size: 7px;
+  text-align: center; /* Center the title */
+}

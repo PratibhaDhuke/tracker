@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.cardsblock {
+  display: flex;
+  align-items: center;
+  width: 49%;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.flipcard {
+  perspective: 1000px; /* Gives the 3D effect */
+  margin: 10px; /* Add margin between cards */
+  width: 150px;
+  height: 160px;
+}
+
+.cardinner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d; /* Preserve 3D space for children */
+  transition: transform 0.6s; /* Duration of the flipping effect */
+}
+
+.cardfront,
+.cardback {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden; /* Hide back face when not facing */
+}
+
+.cardfront {
+  background-color: #000;
+  color: green;
+}
+
+.cardback {
+  transform: rotateY(180deg); /* Rotate back side to hide it initially */
+}
+
+.flipcard.flipped .cardinner {
+  transform: rotateY(180deg); /* Flip the card */
+}
+
+.cardimg {
+  width: 100%; /* Make the images responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.flipcard {
+  transition: opacity 0.5s ease;
+}
+.cardinner {
+  transition: transform 0.5s ease;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.pointernone {
+  pointer-events: none;
+}

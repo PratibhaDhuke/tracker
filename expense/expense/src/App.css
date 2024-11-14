@@ -1,0 +1,278 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.balance-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.balance,
+.expense,
+.income {
+  background: #ecf0f1;
+  padding: 15px;
+  border-radius: 5px;
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.red {
+  color: #e74c3c;
+}
+
+.green {
+  color: #27ae60;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-btn {
+  background-color: #3498db;
+}
+
+.cancel-btn {
+  background-color: #e74c3c;
+}
+
+.add-btn:hover {
+  background-color: #2980b9;
+}
+
+.cancel-btn:hover {
+  background-color: #c0392b;
+}
+
+.expense-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.expense-form input {
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.expense-form input:last-child {
+  margin-right: 0;
+}
+
+.submit-btn {
+  background-color: #27ae60;
+}
+
+.submit-btn:hover {
+  background-color: #219150;
+}
+
+.transactions-title {
+  margin: 20px 0 10px;
+  font-weight: bold;
+  color: #2c3e50;
+  width: 20%;
+}
+
+.transactions {
+  border-top: 1px solid #bdc3c7;
+  padding-top: 10px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ecf0f1;
+}
+.transaction-amount {
+  margin-right: 15px;
+}
+
+.transaction-icons {
+  display: flex;
+  align-items: center;
+}
+
+.edit-icon {
+  color: #3498db;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.delete-icon {
+  color: #e74c3c;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.edit-icon:hover {
+  color: #2980b9;
+}
+
+.delete-icon:hover {
+  color: #c0392b;
+}
+
+.titlehead {
+  margin-top: 40px;
+}
+
+.contain {
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 30px;
+  box-shadow: -2px 14px 27px 4px #ccc;
+  padding: 30px;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.block {
+  width: 45%;
+  display: inline-block;
+}
+
+.bordergray {
+  border: 1px solid #ccc;
+}
+
+.marginrt {
+  margin-right: 25px;
+}
+
+.redtxt {
+  color: red;
+}
+
+.greentxt {
+  color: green;
+}
+
+.expenseform {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mar10px {
+  margin-top: 10px;
+}
+
+.transblk {
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.tarnstitle {
+  font-weight: 500;
+  float: left;
+  padding-left: 15px;
+}
+
+.tarnsamt {
+  float: right;
+  padding-right: 15px;
+}
+
+.marbt20 {
+  margin-bottom: 20px;
+}
+
+.amtblk {
+  box-shadow: -3px 6px 7px -2px #ccc;
+  width: 25%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.amtblkbalance {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.amttitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+.pdf-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.pdf-btn:hover {
+  background-color: #0056b3;
+}

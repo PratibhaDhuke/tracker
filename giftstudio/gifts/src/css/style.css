@@ -1,0 +1,16 @@
+.crdgroup {
+  padding: 50px;
+}
+.bgcolor {
+  background-color: #5c1c31 !important;
+  color: #fff !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+.navpad {
+  padding: 10px 20px;
+}
+.card {
+  margin: 0 15px !important;
+}
